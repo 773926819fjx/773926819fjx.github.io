@@ -64,10 +64,6 @@ toc: true
   3. **矩阵计算单元：** 负责矩阵 Cube 数据计算
   4. **DMA 搬运单元：** 负责在 LocalMem 和 GlobalMem 之间搬运数据（搬入&搬出）
 
-### SIMD 指令基础知识：0 级 API 指令介绍举例
-
-‍
-
 ‍
 
 ## CANN 框架
@@ -92,7 +88,7 @@ Ascend C 昇腾算子编程语言支持原生开发，遵循 C/C++ 标准规范�
 
 * **应用开发接口**：提供深度学习推理计算、图像图像预处理、单算子加速计算能力，实现对昇腾硬件计算的调用。
 
-  |使用场景|<span data-type="text" id="" style="color: var(--b3-font-color8);">优势</span>|
+  |使用场景|<span data-type="text" style="color: var(--b3-font-color8);" id="">优势</span>|
   | -------------------| -----------------------------------------|
   |开发应用|高度抽象|
   |供第三方框架调用|向后兼容|
@@ -126,7 +122,7 @@ Ascend C 昇腾算子编程语言支持原生开发，遵循 C/C++ 标准规范�
   > HCCL（Huawei Collective Communication Library）
   >
 
-* **昇腾调优引擎 AOE**：AOE 用于在<span data-type="text" id="" style="color: var(--b3-font-color8);">推理、训练</span>等场景对<span data-type="text" style="color: var(--b3-font-color8);" id="">模型、算子、子图</span>等进行调优，充分利用硬件资源，不断提升网络的性能！
+* **昇腾调优引擎 AOE**：AOE 用于在<span data-type="text" style="color: var(--b3-font-color8);" id="">推理、训练</span>等场景对<span data-type="text" style="color: var(--b3-font-color8);" id="">模型、算子、子图</span>等进行调优，充分利用硬件资源，不断提升网络的性能！
 
 ### 昇腾计算编译层
 
